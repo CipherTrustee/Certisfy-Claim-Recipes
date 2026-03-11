@@ -4,3 +4,7 @@ This repo contains recipe implementations for [Certisfy claims](https://github.c
 
 These examples demonstrate the use of Certisfy claims as **trust primitives** 
 that can be used to build recipes/procedures that solve trust related problems.
+
+1. [Pinky-Promise-But-Verify](https://github.com/CipherTrustee/Certisfy-Claim-Recipes/ppbv)
+2. Trusted Product and Service Reviews ...Coming soon.
+3. Trusted Comments ...Coming soon.
