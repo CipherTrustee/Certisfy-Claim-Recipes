@@ -12,7 +12,7 @@ mv "certisfy-js" certisfy
 echo "ubuntu" | sudo -S rm -r "certisfy/.git"
 
 sed -i '0,/\.\/*pkijs\.js/s//pkijs/' "certisfy/src/utils/cert.js"
-sed -i '' '0,/\.\.\/utils\/pkijs\.js/s//pkijs/' "certisfy/src/core-pki/cert-gen.js"
+sed -i '0,/\.\.\/utils\/pkijs\.js/ s//pkijs/' "certisfy/src/core-pki/cert-gen.js"
 
 cd ../../
 
