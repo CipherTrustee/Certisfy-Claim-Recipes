@@ -21,4 +21,4 @@ npm install pg
 sudo systemctl restart certisfy-claim-recipes.service
 sudo systemctl enable certisfy-claim-recipes.service
 
-echo "Remember to swap pkijs imports for cert.js and cert-gen from browser to nodejs environment"
+echo "Remember to swap pkijs imports for certisfy/src/utils/pkijs.js from browser to nodejs environment"

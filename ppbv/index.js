@@ -16,7 +16,9 @@ const pool = new Pool({
 });
 var router = express.Router();
 
-const certisfySDK = await createSDK();
+var certisfySDK;
+
+createSDK().then((sdk)=>certisfySDK=sdk);
 
 /* GET home page. */
 router.get('/', async function(req, res, next) {  
